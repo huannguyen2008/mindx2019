@@ -12,28 +12,39 @@
     <div class="song" song_id="78ab12">
       <h4 class="title">Girls like you</h4>
       <h5 class="artist">Maroon 5</h5>
-      <button class="Delete">Delete</button>
-      <button class="Edit">Edit</button>
-      <button class="More">More</button>
+      <button class="delete">Delete</button>
+      <button class="edit">Edit</button>
+      <button class="more">More</button>
     </div>
     <hr>
     <div class="song" song_id="ab762">
       <h4 class="title">Waiting for love</h4>
       <h5 class="artist">Avicii</h5>
-      <button class="Delete">Delete</button>
-      <button class="Edit">Edit</button>
-      <button class="More">More</button>
+      <button class="delete">Delete</button>
+      <button class="edit">Edit</button>
+      <button class="more">More</button>
     </div>
     <hr>
     <div class="song" song_id="12354">
       <h4 class="title">Whatever it takes</h4>
       <h5 class="artist">Imagine Dragons</h5>
-      <button class="Delete">Delete</button>
-      <button class="Edit">Edit</button>
-      <button class="More">More</button>
+      <button class="delete">Delete</button>
+      <button class="edit">Edit</button>
+      <button class="more">More</button>
     </div>
   </div>
-  <div id="box">
+  <h4>Want to add a new song?</h4>
+  <form id="addSong" method="get">
+    Song name: <br>
+    <input type="text" id="Song_name">
+    Artist name: <br>
+    <input type="text" id="Artitst_name">
+    Song Id: <br>
+    <input type="text" id="Song_ID">
+    <input type="submit" id="add" onclick="">
+  </form>
+  <br><button class="add">Add</button>
+  <br><div id="box">
     <button onclick="boxInfo()">Information of this box</button>
   </div>
   <script src="DOM.js" charset="utf-8"></script>
